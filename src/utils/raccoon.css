@@ -48,7 +48,7 @@ span.code-line {
 	border-radius: 5px ;
 	font-family: monospace ;
 	color: #cdd6f4 ;
-	padding: 2px ;
+	padding: 2px 5px 2px 5px ;
 }
 
 td {

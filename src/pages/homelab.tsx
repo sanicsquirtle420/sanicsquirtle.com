@@ -37,7 +37,7 @@ function Homelab() {
                 as of right now I can't just ssh into my server the normal way by 
                 using <span className="code-line">ssh raccoon@raccoon2891.com</span> because my ports aren't properly setup and I don't 
                 think that is neccessary right now. Anyways a diagram of my ports is on the left. Now I know none of this might be 
-                "standard" but if it works for me then I can careless about what ports are normally used. I might as well include this 
+                "standard" but if it works for me then I can care less about what ports are normally used. I might as well include this 
                 since this changed happened this month but the URL is custom! You are no longer
                 on <span className="code-line">sanicsquirtle420.github.io</span> because I bought the 
                 domain <span className="code-line">sanicsquirtle.com</span>. If only I didn't see that you could host GitHub pages on a 

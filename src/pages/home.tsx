@@ -27,9 +27,22 @@ function Home() {
         <br style={{clear: "both"}}/>
         <div>
             <h2>Projects</h2>
+            <h3>Sendoff</h3>
+            <p>
+                Sendoff was my group's hackathon project during the University of Mississippi's HackBeta 2026. The main goal of this project was to find the right heroes
+                to send off to complete a mission given the situation. The details of the missions and final reports are dynamically generated with
+                Google's <a href="https://gemini.google.com">Gemini</a> API. For this project I was the backend developer and my work can be found 
+                at <span className="code-line">Sendoff/backend/</span>. To solve this problem we were given a .csv file containing hundreds of lines of hero data, so I used
+                Python's <span className="code-line">numpy</span> and <span className="code-line">pandas</span> to sort through the data in the .csv file. Then to get the 
+                data from the backend to the frontend I used FastAPI to wait for POST requests from the frontend to see what mission the user selected. From there it would 
+                search a .json file with required statistics to determine a score. Then if a hero had a certain personality trait or weakness they would be given a percentage
+                boost or drop. The output of the top six best heroes would be sent as a .json which can be used by the frontend to display the information to the user.
+                <br /> <a href="https://github.com/IzZumi228/Sendoff">Sendoff: Source Code</a>
+            </p>
+            <img src="/assets/sendoff1.png" alt="Screenshot of Sendoff" className="screenshot"/>
             <h3>Deep Murder / GPT Murder</h3>
             <p>
-                Deep Murder was my group's hackathon project during the University of Mississippi's Hack Beta 2025. The main project was to create an
+                Deep Murder was my group's hackathon project during the University of Mississippi's HackBeta 2025. The main project was to create an
                 interactive game that used the CS department's local Deepseek LLM. Our group used Deepseek to generate NPC dialogue to give the player
                 clues or to lead them in a different direction. GPT Murder is a fork of Deep Murder that will use a different LLM to do the same thing Deepseek (attempted) to do
                 during our Hackathon. <br /> <a href="https://github.com/Hack-Beta/deep-murder">Deep Murder: Source Code</a> | <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
@@ -66,11 +79,11 @@ function Home() {
             </p>
         <div className="prog">
             <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Linux_mascot_tux.png" alt="Linux logo" />
-            <img className="prog-logo" src="https://cdn.freebiesupply.com/logos/large/2x/git-logo-svg-vector.svg" alt="Git logo"/>
+            <img className="prog-logo" src="https://64.media.tumblr.com/f98bb47b1243576546ca2c26a366c0a1/4a6e705c3ab685d6-20/s1280x1920/e90e3c164de91566502c1b6f6a47448faeaf96cd.png" alt="Git logo"/>
             <img className="prog-logo" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java logo" />
             <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C logo"/>
-            <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
-            <img className="prog-logo" src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" alt="Python logo" />
+            <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/en/b/b4/C%2B_Logo.png" alt="C++ logo" />
+            <img className="prog-logo" src="https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png" alt="Python logo" />
             <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" alt="mySQL logo"/>
             <img className="prog-logo" src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
         </div>
